@@ -32,7 +32,8 @@ def main():
     First, the function initiates a spark session.
     Then, performs an ETL process for the song and log data.
     Each ETL extracts data from json files stored on a public S3 bucket, 
-    transforms data into a star schema and loads into an S3 bucket for analytics purposes. 
+    transforms data into a star schema and 
+    loads into an S3 bucket for analytics purposes. 
     """
     
 def create_spark_session():
@@ -45,7 +46,8 @@ def process_song_data(spark, input_data, output_data):
     ETL consists of three stages:
     1) Extract - reads song data stored in JSON in a S3 bucket 
     2) Transform - extracts columns to create songs and artists tables
-    3) Load - saves dimentional tables (songs and artists) to a S3 bucket as parquet files. 
+    3) Load - saves dimentional tables (songs and artists) 
+       to a S3 bucket as parquet files. 
     """
     
 def process_log_data(spark, input_data, output_data):
@@ -60,7 +62,8 @@ def process_log_data(spark, input_data, output_data):
 ```    
 ## `dl.cfg`
 
-The file contains AWS credentials (access key ID  and secret access key) for programmatic access to AWS services.
+The file contains AWS credentials (access key ID  and secret access key) 
+for programmatic access to AWS services.
 
 AWS_ACCESS_KEY_ID=''
 
