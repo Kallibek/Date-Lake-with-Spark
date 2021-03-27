@@ -42,20 +42,20 @@ def process_song_data(spark, input_data, output_data):
     """
     Does ETL process for the song data.
     
-    ETL consists of three stage:
+    ETL consists of three stages:
     1) Extract - reads song data stored in JSON in a S3 bucket 
     2) Transform - extracts columns to create songs and artists tables
-    3) Load - saves dimentional tables (songs and artists) to an S3 bucket as parquet files. 
+    3) Load - saves dimentional tables (songs and artists) to a S3 bucket as parquet files. 
     """
     
 def process_log_data(spark, input_data, output_data):
     """
     Does ETL process for the song data.
     
-    ETL consists of three stage:
+    ETL consists of three stages:
     1) Extract - reads log data stored in JSON in a S3 bucket 
     2) Transform - extracts columns to create users, datetime, and songplays tables
-    3) Load - saves tables to an S3 bucket as parquet files. 
+    3) Load - saves tables to a S3 bucket as parquet files. 
     """
 ```    
 ## `dl.cfg`
