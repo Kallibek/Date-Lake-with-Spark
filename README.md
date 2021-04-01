@@ -15,6 +15,8 @@ This project offers an ETL process for an imaginary music streaming startup call
 
 The code builds an ETL pipeline that extracts their data from S3, processes them using Spark, and loads the data back into S3 as a set of dimensional tables. This will allow their analytics team to continue finding insights in what songs their users are listening to.
 
+![Alt text](Data_Lake_using_Spark.png?raw=true "Data Lake using Spark")
+
 # Project instructions on how to run the Python scripts
 
 Before executing the code, make sure to set your AWS credentials (access key ID  and secret access key) in the `dl.cfg` file.
